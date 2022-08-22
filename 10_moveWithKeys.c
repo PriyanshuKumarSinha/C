@@ -2,6 +2,7 @@
 
 #include<stdio.h>
 #include<3_nameAtTheCenterOfScreen.c> //to use gotoxy which we used earlier
+#include<windows.h>
 
 void input();
 
@@ -9,14 +10,16 @@ int x=0,y=0;
 
 int main()
 {
-    extern int x,y;
-    char name[]= "Priyanshu";
-    while(1){
-        input();
+    extern int x,y; //global x and y
+    char name[]= "Priyanshu"; 
+
+    while(1){ //to exit press any key other than arrow keys
+        input(); //continuously takes input // press enter after every input
         if(x>0 & y>0)
         {
-            gotoxy(x,y);
-            printf("%s",name);
+            system("clr"); //need windows.h for this also
+            gotoxy(x,y); //no need to define here again we already included the file
+            printf("%s",name); //prints this again at new position
         }
     }
 }
