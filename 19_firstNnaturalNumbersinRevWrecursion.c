@@ -5,11 +5,9 @@
 //function declaration
 void printNnumbers(int);
 
-int n; //no of turns //global variable
-
 int main()
 {
-    extern int n; //using gloabl n
+    int n; //local variable n
 
     printf("Enter a Number : ");
     scanf("%d", &n);
@@ -22,8 +20,7 @@ int main()
 //function definition
 void printNnumbers(int x)
 {
-    extern int n; //using global n
-    printf("%d ", n-(x-1)); //if we just print value of x it will go like 25, 24, 23, ... but with this operation it will work as expected
+    printf("%d ", x); //this time we can directly print x
     if(x>1)
         printNnumbers(x-1); //recursion
 }
