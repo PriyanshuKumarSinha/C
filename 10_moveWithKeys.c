@@ -1,7 +1,7 @@
 // move text on screen with keystrokes
 
 #include<stdio.h>
-#include<3_nameAtTheCenterOfScreen.c>
+#include<3_nameAtTheCenterOfScreen.c> //to use gotoxy which we used earlier
 
 void input();
 
