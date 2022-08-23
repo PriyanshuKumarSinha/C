@@ -1,4 +1,4 @@
-// print first n even natural numbers with recursion in reverse
+// print first n odd natural numbers with recursion in reverse
 
 #include <stdio.h>
 
@@ -20,7 +20,7 @@ int main()
 //function definition
 void printNnumbers(int x)
 {
-    printf("%d ", 2*x); //a little change in logic  
+    printf("%d ", 2*x-1); //a little change in logic  
     if(x>1)
         printNnumbers(x-1); //recursion
 }
