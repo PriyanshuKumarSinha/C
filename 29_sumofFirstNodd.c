@@ -1,4 +1,4 @@
-// Write a program to calculate sum of first N even natural numbers
+//Write a program to calculate sum of first N odd natural numbers
 
 #include <stdio.h>
 
@@ -22,6 +22,6 @@ int main()
 int sumNnumbers(int x)
 {
     if(x>1)
-        return ((2*x)+sumNnumbers(x-1));
-    return 2*1;
+        return ((2*x-1)+sumNnumbers(x-1));
+    return 1;
 }
