@@ -1,4 +1,4 @@
-//Write a program to reverse a numberSolution
+//Write a program to reverse a number
 //Author : Priyanshu Kumar Sinha // Date : 23 Aug 2022
 
 #include<stdio.h>

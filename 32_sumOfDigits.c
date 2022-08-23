@@ -1,4 +1,4 @@
-//Write a program to calculate sum of the digits of a given numberSolution
+//Write a program to calculate sum of the digits of a given number
 //Author : Priyanshu Kumar Sinha // Date : 23 Aug 2022
 
 #include <stdio.h>
