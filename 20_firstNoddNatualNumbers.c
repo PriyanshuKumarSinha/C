@@ -1,4 +1,4 @@
-// print first n even natural number 
+// print first n odd natural number 
 
 #include<stdio.h>
 
@@ -9,7 +9,7 @@ int main()
     scanf("%d",&n);
 
     //result
-    for (i=2;i<=2*n;i=i+2)
+    for (i=1;i<=2*n-1;i=i+2)
         printf("%d ",i);
 
     printf("\n");

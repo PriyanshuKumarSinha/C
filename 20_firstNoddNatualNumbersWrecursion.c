@@ -1,4 +1,4 @@
-// print first 10 even natural numbers with recursion
+// print first 10 odd natural numbers with recursion
 
 #include <stdio.h>
 
@@ -23,7 +23,7 @@ int main()
 void printNnumbers(int x)
 {
     extern int n; //using global n
-    printf("%d ", 2*(n-(x-1))); //a little change in logic  
+    printf("%d ", 2*(n-(x-1))-1); //a little change in logic  
     if(x>1)
         printNnumbers(x-1); //recursion
 }
