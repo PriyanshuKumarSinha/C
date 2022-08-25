@@ -15,8 +15,9 @@ int main()
 
     if (num2>num1)
         swap(&num1, &num2);    
-    num2++;
-    
+
+    num2++; //since we want all prime number "between" num1 and num2
+
     printPrime(num1, num2);
     printf("\n");
 
