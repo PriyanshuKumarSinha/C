@@ -1,12 +1,14 @@
-// Star Pattern : 5
+// Star Pattern : 10
 //Author : Priyanshu Kumar Sinha // Date : 29 Aug 2022
 
 
-//     *
-//    ***
-//   *****
-//  *******
-// *********
+//    *   
+//   ***  
+//  ***** 
+// *******
+//  ***** 
+//   ***  
+//    *   
 
 #include<stdio.h>
 
@@ -23,7 +25,7 @@ int main()
                 printf("*");
         }
         printf("\n");
-        
+
         if(i<n-1)
             k++;
         else
