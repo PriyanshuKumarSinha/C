@@ -1,4 +1,4 @@
-// Star Pattern : 13
+// Star Pattern : 14
 //Author : Priyanshu Kumar Sinha // Date : 30 Aug 2022
 
 // 6543210
