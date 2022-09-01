@@ -1,4 +1,4 @@
-// Star Pattern : 18
+// Star Pattern : 19
 //Author : Priyanshu Kumar Sinha // Date : 1 Aug 2022
 
 //____A____            //____5____
