@@ -6,8 +6,6 @@
 //_ABC123_        //_234567_
 //ABCD1234      //12345678
 
-
-
 #include<stdio.h>
 
 int main()
