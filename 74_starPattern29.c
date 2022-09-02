@@ -11,10 +11,10 @@
 
 int main()
 {
-    int i,j,n=5,l=1,k=64,x;
+    int i,j,n=5,l=1,x;
     for(i=1; i<=n;i++)    
     {
-        x=k+l;
+        x=64+l;
         for (j=1;j<=n;j++)
         {
             if(j>n-i)
