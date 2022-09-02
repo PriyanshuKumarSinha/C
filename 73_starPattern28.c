@@ -1,4 +1,4 @@
-// Star Pattern : 27
+// Star Pattern : 28
 //Author : Priyanshu Kumar Sinha // Date : 2 Aug 2022
 
 //1
