@@ -1,5 +1,5 @@
 // Star Pattern : 34
-//Author : Priyanshu Kumar Sinha // Date : 4 Aug 2022
+//Author : Priyanshu Kumar Sinha // Date : 5 Aug 2022
 
 //1                            //-5+6=1         //1
 //6-2                        //1+5 6            //6_6-4
