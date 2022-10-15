@@ -1,5 +1,5 @@
 // give roots of quadratic eqn (only real roots)
-// compile with gcc 15_rootsOfQuadEqn.c -o 15_rootsOfQuadEqn -lm (to like math.h)
+// compile with gcc 15_rootsOfQuadEqn.c -o 15_rootsOfQuadEqn -lm (to link math.h)
 
 #include<stdio.h>
 #include<stdlib.h> //for exit()
