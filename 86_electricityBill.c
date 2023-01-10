@@ -47,7 +47,7 @@ int main()
     //if charge is greater than 400
     if(total_amount>400) //600>400 (True)
     {
-        total_amount = total_amount + total_amount * (15/100);
+        total_amount = total_amount + total_amount * 15 / 100;
         //total_amount = 600 + 600 * (15/100) = 600 + 90 = 690
     }
     printf("\nTotal Amount = %f\n", total_amount);
@@ -60,5 +60,5 @@ int main()
 // ___________________________________
 // |Enter Units Consumed : 550        |
 // |                                  |
-// |Total Amount = 600.000000         |
+// |Total Amount = 690.000000         |
 //  ----------------------------------
